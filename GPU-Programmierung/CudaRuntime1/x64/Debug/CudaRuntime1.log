@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\darek\source\repos\CudaRuntime1\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\darek\source\repos\CudaRuntime1\CudaRuntime1\x64\Debug\kernel.cu.obj "C:\Users\darek\source\repos\CudaRuntime1\CudaRuntime1\kernel.cu" 
+  kernel.cu
+C:\Users\darek\source\repos\CudaRuntime1\CudaRuntime1\kernel.cu(25): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\darek\source\repos\CudaRuntime1\CudaRuntime1\kernel.cu(26): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+  CudaRuntime1.vcxproj -> C:\Users\darek\source\repos\CudaRuntime1\x64\Debug\CudaRuntime1.exe
